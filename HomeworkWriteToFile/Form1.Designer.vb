@@ -36,35 +36,35 @@ Partial Class Form1
         'NameLabel
         '
         Me.NameLabel.AutoSize = True
-        Me.NameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NameLabel.ForeColor = System.Drawing.Color.Aquamarine
         Me.NameLabel.Location = New System.Drawing.Point(87, 66)
         Me.NameLabel.Name = "NameLabel"
-        Me.NameLabel.Size = New System.Drawing.Size(64, 25)
+        Me.NameLabel.Size = New System.Drawing.Size(75, 25)
         Me.NameLabel.TabIndex = 0
-        Me.NameLabel.Text = "Name"
+        Me.NameLabel.Text = "Name:"
         '
         'Age
         '
         Me.Age.AutoSize = True
-        Me.Age.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Age.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Age.ForeColor = System.Drawing.Color.Aquamarine
         Me.Age.Location = New System.Drawing.Point(87, 123)
         Me.Age.Name = "Age"
-        Me.Age.Size = New System.Drawing.Size(48, 25)
+        Me.Age.Size = New System.Drawing.Size(58, 25)
         Me.Age.TabIndex = 1
-        Me.Age.Text = "Age"
+        Me.Age.Text = "Age:"
         '
         'Address
         '
         Me.Address.AutoSize = True
-        Me.Address.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Address.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Address.ForeColor = System.Drawing.Color.Aquamarine
         Me.Address.Location = New System.Drawing.Point(87, 178)
         Me.Address.Name = "Address"
-        Me.Address.Size = New System.Drawing.Size(85, 25)
+        Me.Address.Size = New System.Drawing.Size(99, 25)
         Me.Address.TabIndex = 2
-        Me.Address.Text = "Address"
+        Me.Address.Text = "Address:"
         '
         'NameBox
         '
@@ -107,6 +107,7 @@ Partial Class Form1
         Me.TXTButton.BackColor = System.Drawing.Color.Firebrick
         Me.TXTButton.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick
         Me.TXTButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.TXTButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TXTButton.ForeColor = System.Drawing.Color.Gold
         Me.TXTButton.Location = New System.Drawing.Point(76, 232)
         Me.TXTButton.Name = "TXTButton"
@@ -120,6 +121,7 @@ Partial Class Form1
         Me.XMLButton.BackColor = System.Drawing.Color.Firebrick
         Me.XMLButton.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick
         Me.XMLButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.XMLButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.XMLButton.ForeColor = System.Drawing.Color.Gold
         Me.XMLButton.Location = New System.Drawing.Point(184, 232)
         Me.XMLButton.Name = "XMLButton"
@@ -133,6 +135,7 @@ Partial Class Form1
         Me.JSONButton.BackColor = System.Drawing.Color.Firebrick
         Me.JSONButton.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick
         Me.JSONButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.JSONButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.JSONButton.ForeColor = System.Drawing.Color.Gold
         Me.JSONButton.Location = New System.Drawing.Point(292, 232)
         Me.JSONButton.Name = "JSONButton"
